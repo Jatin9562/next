@@ -1,0 +1,36 @@
+  
+.single {
+    padding: 2px 16px;
+    background: #fff;
+    display: block;
+    margin: 20px 10px;
+    border-left: 8px solid #fff;
+  }
+  .single:hover {
+    border-left: 8px solid #4979ff;
+    background-color: rgb(228, 213, 213);
+  }
+
+  .double{
+      background-color:rgb(228, 213, 213);
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      border: 2px solid black;
+      box-shadow: 5px 10px #888888;
+  }
+
+  .main{
+      display: flex;
+      justify-content:center;
+  }
+
+.double :hover{
+  color: red;
+}
+
+
+ 
